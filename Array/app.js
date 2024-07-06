@@ -59,3 +59,12 @@ array7.unshift("Son of Mushtaq Ahmed");
 console.log(array7.unshift()); // For Return Value
 console.log(array7);
 console.log("*********************************************");
+// Slice Method
+// The Slice() method return a selected element in an array. as a new array.
+// The Slice() method does not change the orignal array.
+// The Slice() method return selected elements.
+let array8 = ["Mushtaq", "Ahmed", "Ansari", "Iftikhar", "Ahmed", "Ansari"];
+console.log(array8);
+let newarray = array8.slice(1, 5);
+console.log(newarray);
+console.log("*********************************************");
