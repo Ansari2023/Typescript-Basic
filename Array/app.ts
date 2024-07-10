@@ -85,3 +85,15 @@ let newarray = array8.slice(1,5)
 console.log(newarray)
 
 console.log("*********************************************")
+
+// Splice Method
+// The splice() method add and removed array elements
+// The splice() method overwrite the original array.
+// return deleted element in array.
+
+let array9:string[] = ["Iftikhar","Ahmed","Ansari","age","35","years"]
+
+let deletedelement = array9.splice(1,2,"Usman","Jameel")
+
+console.log("New",array9)
+console.log("Reutrned",deletedelement); // Returned Value Ahmmed and Ansari.
